@@ -4,7 +4,7 @@ body {margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1) ; }
+a { color: rgb(159, 139, 248) ; }
 a:hover { color: rgba(0, 51, 153, 1); }
 
 /* GLOBAL TYPOGRAPHY */ 
@@ -17,7 +17,7 @@ body {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(99, 113, 187);
     color: rgba(0, 0, 0, 0.8);
     padding: 1em;
     display: grid;
@@ -61,7 +61,7 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(99, 113, 187);
     text-align: center;
     color: white;
     padding: 6em 1em;
