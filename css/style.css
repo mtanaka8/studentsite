@@ -213,4 +213,5 @@ dd {
     background-image: url(https://picsum.photos/id/152/1600/800);
     background-position: center top;
     background-size: cover;
+    padding: 10 em 1em 6em 1em;
 }
