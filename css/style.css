@@ -1,5 +1,5 @@
 /* GLOBAL RESET */
-* { box-sizing: broder-box; }
+* { box-sizing: border-box; }
 body {margin: 0; }
 
 /* GLOBAL COLORS */
@@ -14,7 +14,7 @@ body {
     line-height: 1.4;
 }
 
-/* HEADER */
+/* SITE STRUCTURE */
 
 header {
     background-color: rgba(0, 102, 204, 1);
@@ -51,7 +51,7 @@ header a:hover {
 
 .site-nav a {
     display: block;
-    padding: 1 em;
+    padding: 1em;
 }
 
 /* MAIN */
@@ -64,7 +64,7 @@ main {
     background-color: rgba(0, 102, 204, 1);
     text-align: center;
     color: white;
-    padding: 6em 1 em;
+    padding: 6em 1em;
 }
 
 .hero h2 {
