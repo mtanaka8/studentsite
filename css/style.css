@@ -199,3 +199,18 @@ dd {
     border: 1px solid rgba(0,0,0,.1) !important;
     color: rgba(0,0,0,.5) !important;
 } */
+
+/* CUSTOM HOME PAGE STYLING */
+.page-home header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+
+.page-home .hero {
+    background-image: url(https://picsum.photos/id/152/1600/800);
+    background-position: center top;
+    background-size: cover;
+}
