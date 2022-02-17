@@ -29,7 +29,7 @@
 --------------------------------- */
 /* #TYPOGRAPHY  */
 body {
-    font-size: 87.5%; /* 14px * 1 em */
+    font-size: 87.5%; /* 14px */
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
     color:rgba(0, 0, 0, .8);
@@ -114,10 +114,10 @@ img {
 /* BUTTONS */
 .button,
 button {
-    font-size:inherit;
+    font-size: inherit;
     line-height: 1;
-    background-color: rgba(0, 0, 153, .8);
-    border: 1px solid rgba(0, 0, 153, .8);
+    background-color: rgba(0, 0, 204, 1);
+    border: 1px solid rgba(0, 0, 204, 1);
     color: rgba(255, 255, 255, 1); 
     padding: 1em;
     display: inline-block;
@@ -135,7 +135,7 @@ button:hover {
 }
  
 .button.alt {
-    background-color: transparent;
+    background-color:transparent;
     color: rgba(0, 0, 153,1);
 
 }
