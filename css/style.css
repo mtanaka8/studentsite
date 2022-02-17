@@ -5,7 +5,7 @@ body {margin: 0; }
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
 a { color: rgb(159, 139, 248) ; }
-a:hover { color: rgba(0, 51, 153, 1); }
+a:hover {  color: rgba(255, 255, 255, .5); }
 
 /* GLOBAL TYPOGRAPHY */ 
 body {
