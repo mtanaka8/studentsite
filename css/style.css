@@ -32,7 +32,8 @@ header a {
 }
 
 header a:hover {
-  color: rgba(255, 255, 255, 1);  
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;  
 }
 
 /* SITE ID */
@@ -117,6 +118,13 @@ footer {
 .social-nav a {
     display: block;
     padding: 1em;
+}
+
+.social-nav a:hover,
+footer a:hover {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+
 }
 
 /* LAYOUT */
