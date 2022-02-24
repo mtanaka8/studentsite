@@ -223,7 +223,6 @@ body.demo::before {
 }
 
 @media (min-width: 768px) {
-
     .row {
         display: flex;
         justify-content: space-between;
@@ -240,18 +239,18 @@ body.demo::before {
     }
 
     .row > .column.one-half {
-        max-width: 46%;   
+        max-width: 48%;   
     }
 
     .row > .column.one-third {
-        max-width: 29.3333%;   
+        max-width: 31.3333%;   
     }
 
     .row > .column.two-thirds {
-        max-width: 62.6666%; 
+        max-width: 64.6666%; 
     }
     .row > .column.one-fourth {
-        max-width: 21%;   
+        max-width: 23%;   
     }
 
     .row > .column.centered {
