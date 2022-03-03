@@ -358,7 +358,7 @@ section {
         text-align: right;
     }
 
-    .toggle-nav .menu-button {
+    .toggle-nav .site-nav .menu-button {
         background-color: transparent;
         border:none;
         display: inline-block;
@@ -367,7 +367,7 @@ section {
         margin-bottom: .8em;
     }
 
-    .toggle-nav .menu-button::selection {
+    .toggle-nav .site-nav .menu-button::selection {
         background: white;
     }
 
