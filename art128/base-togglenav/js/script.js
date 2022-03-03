@@ -4,8 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
  const menubutton = document.querySelector('.menu-button');
  const menunav = document.querySelector('.toggle-nav');
 menubutton.addEventListener('click',function(){
-    console.log("hello!");
- });
+    if (menunav.getAttribute('data-navastate') === 'open') {
+        // if true do this
+        menunav.setAttribute('data-navastate', 'closed');    
+    } else {
+        // else (if false) do this:
+        menunav.setAttribute('data-navstate', 'open');
+    };
+});
+ 
 
-
-})
+});
