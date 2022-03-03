@@ -396,8 +396,9 @@ section {
     .toggle-nav .site-nav .menu-button.navicon {
         border:none;
         color: rgba(255,255,255,0)
-        
     }
+
+
     .toggle-nav .site-nav .menu-button.navicon::after {
         content: "\2630";
         display: inline-block;
@@ -407,7 +408,7 @@ section {
         font-size: 1.5em;
     }
     
-    .toggle-nav[data-navstate="open"].toggle-nav .site-nav .menu-button.navicon ::after {
+    .toggle-nav[data-navstate="open"] .site-nav .menu-button.navicon::after {
         content: "\2715";
     }
         
