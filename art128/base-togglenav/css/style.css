@@ -359,6 +359,7 @@ section {
     }
 
     .toggle-nav .menu-button {
+        display: inline-block;
         background-color: transparent;
         border:none;
         display: inline-block;
@@ -407,8 +408,9 @@ section {
         font-size: 1.5em;
     }
     
-    .toggle-nav[data-navstate="open"].toggle-nav .site-nav .menu-button.navicon::after {
+    .toggle-nav[data-navstate="open"].toggle-nav .site-nav .menu-button.navicon ::after {
         content: "\2715";
     }
-
+        
+    
 }
