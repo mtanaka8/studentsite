@@ -359,7 +359,6 @@ section {
     }
 
     .toggle-nav .menu-button {
-        display: inline-block;
         background-color: transparent;
         border:none;
         display: inline-block;
