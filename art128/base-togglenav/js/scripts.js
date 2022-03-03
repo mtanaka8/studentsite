@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
            // if true do this 
            menunav.setAttribute('data-navastate', 'closed');    
        } else {
-           // else (if false) do this:
+           //else (if false) do this:
            menunav.setAttribute('data-navstate', 'open');
        };
    });
