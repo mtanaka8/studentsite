@@ -410,7 +410,11 @@ section {
     
     .toggle-nav[data-navstate="open"] .site-nav .menu-button.navicon::after {
         content: "\2715";
+
+
     }
+
+    
 /* SUBPAGES */
 
 article {
