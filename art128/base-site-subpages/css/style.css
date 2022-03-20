@@ -507,7 +507,7 @@ form textarea {
 
 form label {
     margin-top: 1em;
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
 }
 
 form input[type="text"],
@@ -522,15 +522,8 @@ form textarea {
     line-height: 1.5;
 }
 
-form input[type="submit"] {
+form input [type="submit"] {
     margin-top: 1.5em;
     width: auto;
-}
 
-.site-id h1 .b {
-    font-weight: normal;
-    text-decoration: none;
-    color: rgb(0 0 0 / .4);
-}     
-    
 }
