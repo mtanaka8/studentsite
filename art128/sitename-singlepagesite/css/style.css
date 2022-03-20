@@ -563,13 +563,27 @@ form input[type="submit"] {
     background-color: #fff;
   }
   
-  .site-header.sticky + .site-main {
+  .site-header.sticky + main {
     padding-top: 3em;
-  }
+}
 
-  @media (min-height: 600px) {
-      #contact {
-          padding-bottom: 20em;
-      }
-  }
+#about {
+    background: rgb(0 0 0 / .05);
+}
+
+#contact {
+    background: rgb(0 0 0 / .1);
+}
+
+.site-header {
+    background: rgb(255 255 255);
+    padding-bottom: .4em;
+}
+
+/* VERTICAL MEDIA QUERY */
+
+@media (min-height: 600px) {
+    #contact {
+        padding-bottom: 20em;
+    }
 }
