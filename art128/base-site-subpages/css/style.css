@@ -359,6 +359,7 @@ section {
     }
 
     .toggle-nav .site-nav .menu-button {
+        display: block;
         background-color: transparent;
         border:none;
         display: inline-block;
@@ -381,12 +382,12 @@ section {
         color: black;
     }
 
-    .toggle-nav[data-navstate="closed"] ul {
+    .toggle-nav[data-navstate='closed'] ul {
         height: 0;
         overflow: hidden;
     }
 
-    .toggle-nav[data-navstate="open"] ul {
+    .toggle-nav[data-navstate='open'] ul {
         height: auto;
         overflow: visible;
     }
@@ -413,6 +414,8 @@ section {
 
 
     }
+
+    
 
 
     /* SUBPAGES */
