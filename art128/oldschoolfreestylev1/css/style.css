@@ -359,6 +359,10 @@ section {
     margin-right: auto;
 }
 
+.hero h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+
 
 /* TOGGLE NAV */ 
 
