@@ -389,7 +389,7 @@ section {
 
     .toggle-nav .site-nav a:hover {
         background:rgb(195, 147, 218);
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
     .toggle-nav[data-navstate="closed"] ul {
