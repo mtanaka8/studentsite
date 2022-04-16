@@ -84,7 +84,7 @@ p {
 
 /* LINKS */
 a { 
-    color: rgba(0, 0, 153, .8);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 a:hover {
@@ -158,8 +158,6 @@ body {
     background-size: 120%;
 }
 
-
-body { margin: 0;}
 
 
 /* CONTAINER */
@@ -297,9 +295,7 @@ body.demo::before {
 
 /* STYLING FOR BOTH HEADER AND FOOTER */
 
-.site-header a {
-    color: rgb(255, 255, 255);
-}
+
 .site-footer a {
     color: rgba(0, 0, 0, 0.8);
 }
@@ -349,8 +345,8 @@ section {
 
 .hero {
     padding: 6em 4%;
-    background-color: rgba(0 0 0 / .1);
     text-align: center;
+    align-content: center;
 }
 
 .hero h1, p {
@@ -362,7 +358,7 @@ section {
 .hero h1 {
     color: rgb(255, 255, 255);
     margin: 0;
-
+}
 
 /* TOGGLE NAV */ 
 
@@ -430,7 +426,7 @@ section {
 
 
     }
-
+}
     
 /* SUBPAGES */
 
@@ -577,7 +573,6 @@ form input[type="submit"] {
     width: 100%;
     top: 0;
     z-index: 100;
-    background-color: #fff;
   }
   
   .site-header.sticky + main {
@@ -593,7 +588,6 @@ form input[type="submit"] {
 }
 
 .site-header {
-    background: rgb(255 255 255);
     padding-bottom: .4em;
 }
 
