@@ -559,7 +559,7 @@ form input[type="submit"] {
 }
 
 #about {
-    background:#228b22;
+    background:rgba(20, 201, 48, 0.035);
 }
 
 #contact {
@@ -579,12 +579,16 @@ form input[type="submit"] {
     padding-top: 3em;
 }
 
+#gallery {
+    background: rgba(233, 8, 8, 0.987);
+}
+
 #about {
-    background: rgb(0 0 0 / .05);
+    background: rgb(0, 187, 22);
 }
 
 #contact {
-    background: rgb(0 0 0 / .1);
+    background: rgba(233, 8, 8, 0.987);
 }
 
 .site-header {
