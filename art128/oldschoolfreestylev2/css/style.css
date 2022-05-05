@@ -116,8 +116,8 @@ img {
 button {
     font-size: inherit;
     line-height: 1;
-    background-color: rgba(0, 0, 204, 1);
-    border: 1px solid rgba(0, 0, 204, 1);
+    background-color: rgba(101, 33, 14);
+    border: 1px solid rgba(101, 33, 14);
     color: rgba(255, 255, 255, 1); 
     padding: 1em;
     display: inline-block;
@@ -128,15 +128,15 @@ button {
 
 .button:hover,
 button:hover {
-    background-color: rgba(0, 0, 153,1);
-    border-color: rgba(0, 0, 153,1);
-    color: rgba(255, 255, 255, 1); 
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    color: rgb(75, 39, 15); 
     text-decoration: none;
 }
  
 .button.alt {
     background-color: transparent;
-    color: rgba(0, 0,153,1);
+    color: rgba(101, 33, 14);
 
 }
 
@@ -271,6 +271,15 @@ body.demo::before {
 
 /* SITE STRUCTURE */
 
+body {
+    background-image: url('../img/IMG_6620.JPG');
+    background-position: top center;
+    background-repeat: no-repeat;
+
+   }
+
+
+
 /* SITE HEADER */
 
 .site-header {
@@ -330,35 +339,27 @@ body.demo::before {
 /* SECTIONS */
 
 section {
-    padding: 3em 0;
+    padding: 3em;
 }
 
 /* HERO */
 
 .hero {
-    padding: 0%;
+    padding: 12em 0em;
     text-align: center;
-    align-content: center;
-}
-
-.container-hero {
-    margin: auto;
-    background-image:url('../img/IMG_6620.JPG');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 125%;
-    min-height: 400px;
+    margin-bottom: 1em;
 }  
 
 .hero h1, p {
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
+    
 }
-
 .hero h1 {
     color: rgb(255, 255, 255);
-    margin: 0;
+    margin: auto;
+    text-align: center;
 }
 
 /* TOGGLE NAV */ 
@@ -559,12 +560,31 @@ form input[type="submit"] {
     border: .75px solid rgba(0, 0, 0, .2)
 }
 
+#history {
+    background:rgb(255, 78, 78);
+    color: white;
+}
+
+
+#gallery {
+    background:rgb(255, 68, 47);
+    color: white;
+}
+
+
+#events{
+    background:rgb(255, 113, 31);
+    color: white;
+}
+
 #about {
-    background:rgba(20, 201, 48, 0.035);
+    background:#28c23f;
+    color: white;
 }
 
 #contact {
-    background:rgba(0, 0, 0, .1);
+    background:rgb(255, 54, 54);
+    color: white;
 }
 
 /* STICKY header - works with a class="sticky" on .site-header */
