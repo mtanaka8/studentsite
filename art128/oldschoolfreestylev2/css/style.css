@@ -150,14 +150,6 @@ button:hover {
 /* SIMPLE RESET */
 * { box-sizing: border-box }
 
-body { 
-    margin: 0;
-    background-image:url(../img/IMG_6620.JPG);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 120%;
-}
-
 
 
 /* CONTAINER */
@@ -344,10 +336,20 @@ section {
 /* HERO */
 
 .hero {
-    padding: 6em 4%;
+    padding: 3em 1%;
     text-align: center;
     align-content: center;
 }
+
+.container-hero {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url('../img/IMG_6620.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    min-height: 319px;
+}  
 
 .hero h1, p {
     max-width: 600px;
