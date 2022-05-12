@@ -33,6 +33,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
     color:rgba(0, 0, 0, .8);
+    margin: 0;
 }
 
 /* HEADINGS */
@@ -143,6 +144,18 @@ button:hover {
 .button.alt:hover {
     background-color: rgba(0, 0, 153,1);
     color: rgba(255, 255, 255, 1);
+}
+
+.collection-button {
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.info-button {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 /* LAYOUT */
@@ -339,21 +352,21 @@ body {
 /* SECTIONS */
 
 section {
-    padding: 3em;
+    padding: 2em;
 }
 
 /* HERO */
 
 .hero {
-    padding: 12em 0em;
+    padding: 12em 2em;
     text-align: center;
     margin-bottom: 1em;
 }  
 
 .hero h1, p {
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;   
+    margin-left: 0;
+    margin-right: 0;   
     
 }
 .hero h1 {
@@ -561,31 +574,44 @@ form input[type="submit"] {
 }
 
 #history {
-    background:rgb(255, 78, 78);
+    background: linear-gradient(to bottom, rgb(255, 147, 14), rgb(250, 5, 5));
     color: white;
+    padding: 5%; 
+    transform: skew(0, 5deg); /* makes the section slanted/skewed */
 }
 
+
+
+    
 
 #gallery {
-    background:rgb(255, 68, 47);
+    background: linear-gradient(to bottom, rgb(255, 152, 34), rgb(250, 5, 5));
     color: white;
-}
+    padding: 5%; 
+    transform: skew(0, 5deg); /* makes the section slanted/skewed */
+    }
 
 
 #events{
-    background:rgb(255, 113, 31);
+    background:rgb(255, 150, 37);
     color: white;
+    padding: 5%; 
+    transform: skew(0, -5deg); /* makes the section slanted/skewed */
 }
 
 #about {
     background:#28c23f;
     color: white;
+    padding: 5%; 
+    transform: skew(0, 5deg); /* makes the section slanted/skewed */
 }
 
 #contact {
-    background:rgb(255, 54, 54);
+    background: linear-gradient(to bottom, rgb(255, 147, 14), rgb(250, 5, 5));
     color: white;
-}
+    padding: 5%; 
+    transform: skew(0, -5deg); /* makes the section slanted/skewed */
+    }
 
 /* STICKY header - works with a class="sticky" on .site-header */
 
@@ -609,6 +635,6 @@ form input[type="submit"] {
 
 @media (min-height: 600px) {
     #contact {
-        padding-bottom: 20em;
+        padding-bottom: 1em;
     }
 }
