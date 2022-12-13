@@ -307,20 +307,14 @@
   }
 
   #products {
-    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir/img%20/patterns%202.png");
-    background-repeat: repeat;
+    background-image: url(../img/patterns2.png);
     background-size: 450px;
   }
 
   #section4 {
-    background-image: url("file:///Users/mariatanaka/Desktop/github/elixir/img%20/patterns.png");
-    background-repeat: repeat;
+    background-image: url(../img/patterns.png);
     background-size: 450px;
   }
-
-
-
-  
 
   
   /* SITE FOOTER */
